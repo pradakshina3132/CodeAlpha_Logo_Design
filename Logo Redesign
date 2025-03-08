@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame-1-1">
+<img src="images/image-2.svg" class="image-2" alt="image" />
+<img src="images/image-3.svg" class="image-3" alt="image" />
+<div class="rectangle-1-4"></div>
+<p class="text-5">Alpha</p>
+<img src="images/line-1-6.svg" class="line-1-6" alt="line-1" />
+<div class="rectangle-2-7"></div>
+<p class="text-8">CODE</p>
+<img src="images/ellipse-1-9.svg" class="ellipse-1-9" alt="ellipse-1" />
+<img src="images/arrow-1-10.svg" class="arrow-1-10" alt="arrow-1" />
+</div>
+
+</body>
+</html>
+
+/* Add font files for Kablammo */
+@font-face {
+  font-family: 'Kablammo';
+  src: url('fonts/kablammo.woff2') format('woff2'),
+       url('fonts/kablammo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-kablammo: 'Kablammo', sans-serif;
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+.image-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: none;
+  outline: none;
+}
+
+.rectangle-1-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  box-shadow: 1px 4px 0px 0px rgba(0,0,0,0.5);
+  border: 1px solid rgba(0, 51, 255, 1);
+  font-family: var(--font-family-kablammo);
+  font-weight: Eek;
+  font-size: 128px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+}
+
+.line-1-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(0, 51, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-2-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-kablammo);
+  font-weight: Splat;
+  font-size: 200px;
+  letter-spacing: 0percent;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: original;
+}
+
+.ellipse-1-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(255, 255, 255, 1);
+  border: none;
+  outline: none;
+}
+
+.arrow-1-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 10px solid rgba(0, 0, 0, 1);
+  border: none;
+  outline: none;
+}
+
+.frame-1-1 {
+@media (max-width: 1440px) {
+  .frame-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frame-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
