@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame-1-1">
+<img src="images/image-2.svg" class="image-2" alt="image" />
+<img src="images/image-3.svg" class="image-3" alt="image" />
+<div class="rectangle-1-4"></div>
+<p class="text-5">Alpha</p>
+<img src="images/line-1-6.svg" class="line-1-6" alt="line-1" />
+<div class="rectangle-2-7"></div>
+<p class="text-8">CODE</p>
+<img src="images/ellipse-1-9.svg" class="ellipse-1-9" alt="ellipse-1" />
+<img src="images/arrow-1-10.svg" class="arrow-1-10" alt="arrow-1" />
+</div>
+
+</body>
+</html>
+
